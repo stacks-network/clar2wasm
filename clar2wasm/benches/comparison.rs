@@ -337,7 +337,7 @@ decl_benches! {
     ),
     (
         "add_prices",
-        (1..401).step_by(50),
+        (1..51).step_by(2),
         |_i| r"
         (define-map oracle_data
             { source: uint, symbol: uint }
